@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Nom de l'entreprise — Électricien</title>
+  <meta name="description" content="Électricien professionnel — dépannage, installation, mise aux normes. Disponible dans votre secteur.">
+  <style>
+    :root{--accent:#f59e0b;--dark:#0f172a;font-family:Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial}
+    *{box-sizing:border-box}
+    body{margin:0;color:#0b1220;background:#f8fafc;font-family:var(--font, Arial), sans-serif;line-height:1.5}
+    header{background:linear-gradient(90deg, #ffffff 0%, #f1f5f9 100%);padding:28px 18px;border-bottom:1px solid #e6eef6}
+    .container{max-width:900px;margin:0 auto;padding:0 18px}
+    .brand{display:flex;align-items:center;gap:12px}
+    .logo{width:56px;height:56px;border-radius:8px;background:var(--accent);display:inline-grid;place-items:center;color:#081126;font-weight:700}
+    h1{margin:0;font-size:20px}
+    p.lead{margin:8px 0 0;color:#334155}
+    .hero{padding:36px 0;display:flex;flex-wrap:wrap;gap:20px;align-items:center}
+    .col{flex:1 1 320px}
+    .cta{display:inline-block;margin-top:12px;padding:10px 16px;border-radius:8px;background:var(--accent);color:#07203a;text-decoration:none;font-weight:600}
+    .card{background:white;padding:18px;border-radius:12px;box-shadow:0 6px 18px rgba(2,6,23,0.06)}
+    ul.services{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px}
+    li.service{padding:10px;border-radius:8px;border:1px solid #eef2f7;background:#ffffff}
+    footer{padding:18px 0;color:#475569;font-size:14px;text-align:center}
+    .contact{display:flex;flex-direction:column;gap:8px}
+    @media(min-width:720px){h1{font-size:24px}.hero{gap:40px}}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="brand">
+        <div class="logo">E</div>
+        <div>
+          <h1>MON ENTREPRISE - Électricien</h1>
+          <p class="lead">Dépannage • Installation • Mise aux normes</p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div class="col">
+        <div class="card">
+          <h2>Électricien professionnel près de chez vous</h2>
+          <p>Interventions rapides, devis gratuit et conseils professionnels. Petites réparations, installation de luminaires, tableaux électriques et mise en conformité.</p>
+          <a class="cta" href="#contact">Appelez maintenant : 06 12 34 56 78</a>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card contact">
+          <strong>Contact</strong>
+          <div>Téléphone : <a href="tel:+33612345678">06 12 34 56 78</a></div>
+          <div>Email : <a href="mailto:contact@votredomaine.com">contact@votredomaine.com</a></div>
+          <div>Zone d'intervention : Ville / Département</div>
+          <div>Horaires : Lun–Sam 08:00–19:00</div>
+        </div>
+      </div>
+    </section>
+
+    <section>    
+      <h3>Nos services</h3>
+      <ul class="services">
+        <li class="service">Dépannage électrique</li>
+        <li class="service">Remplacement de disjoncteur</li>
+        <li class="service">Installation de prises et éclairage</li>
+        <li class="service">Mise aux normes (Consuel)</li>
+      </ul>
+    </section>
+
+    <section id="contact" style="margin-top:20px">
+      <h3>Demande de devis</h3>
+      <div class="card">
+        <p>Envoyez un e‑mail avec votre adresse, une courte description et des photos si possible. Réponse rapide.</p>
+        <p style="margin:0.5rem 0 0">Email : <a href="mailto:contact@votredomaine.com">contact@votredomaine.com</a></p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      © <span id="year"></span> MON ENTREPRISE — Électricien • Tous droits réservés
+    </div>
+    <script>document.getElementById('year').textContent = new Date().getFullYear()</script>
+  </footer>
+</body>
+</html>
