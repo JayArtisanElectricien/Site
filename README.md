@@ -1,8 +1,9 @@
+<!doctype html>
 <html lang="fr">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>JAY Artisnan Electricien</title>
+  <title>Nom de l'entreprise — Électricien</title>
   <meta name="description" content="Électricien professionnel — dépannage, installation, mise aux normes. Disponible dans votre secteur.">
   <style>
     body{font-family:Arial,sans-serif;margin:0;padding:0;background:#f7f7f7;color:#333}
@@ -20,7 +21,7 @@
 <body>
 
 <header>
-  <h1>JAY Artisan Electricien</h1>
+  <h1>Nom de l'entreprise</h1>
   <p>Électricien — Dépannage, Installation, Mise aux normes</p>
 </header>
 
@@ -42,10 +43,10 @@
 
   <section>
     <h2>Contact</h2>
-    <p>Téléphone : 0616946540</p>
-    <p>Email : jayartisanelectricien</p>
-    <p>Zone d'intervention : Villaz, Annecy et ses alentours</p>
-    <a class="button" href="tel:0616946540">Appelez-moi</a>
+    <p>Téléphone : 06 16 94 65 40</p>
+    <p>Email : jayartisanelectricien@gmail.com</p>
+    <p>Zone d'intervention : Villaz et ses alentours</p>
+    <a class="button" href="tel:06 16 94 65 40">Appelez-moi</a>
   </section>
 
   <section>
