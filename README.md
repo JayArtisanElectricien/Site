@@ -43,7 +43,7 @@
       <h2>Contact</h2>
       <p>
         Téléphone : 
-        <a class="button" href="tel:+33616946540">Appelez-moi</a>
+        <a class="button" href="tel:+33616946540">📞 06 16 94 65 40</a>
       </p>
       <p>Email : <a href="mailto:jayartisanelectricien@gmail.com">jayartisanelectricien@gmail.com</a></p>
       <p>Zone d'intervention : Villaz et ses alentours</p>
